@@ -69,11 +69,24 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 445px;
+  height: 455px;
 }
 
 .promotion {
   border-radius: 3px;
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+.flyer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 445px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .image {
@@ -148,6 +161,10 @@ h2 {
   }
 
   .promotions {
+    height: 415px;
+  }
+
+  .flyer {
     height: 400px;
   }
 
@@ -206,6 +223,10 @@ h2 {
   }
 
   .promotions {
+    height: 330px;
+  }
+
+  .flyer {
     height: 320px;
   }
 
@@ -290,6 +311,14 @@ h2 {
     height: 170px;
   }
 
+  .margin {
+    margin-left: 10px;
+  }
+
+  .flyer {
+    height: 165px;
+  }
+
   .image {
     padding: 5px;
     border-radius: 3px;
@@ -360,6 +389,10 @@ h2 {
   }
 
   .promotions {
+    height: 150px;
+  }
+
+  .flyer {
     height: 145px;
   }
 
